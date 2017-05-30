@@ -16,7 +16,7 @@ module.exports = {
   rules: {
     /* Indentation */
     'no-mixed-spaces-and-tabs': 2,
-    'indent': [2, 2],
+    'indent': [0, 2],
     /* Variable cames */
     'camelcase': 2,
     /* Language constructs */
@@ -39,7 +39,7 @@ module.exports = {
     /* Variable declaration */
     'one-var': [1, { 'uninitialized': 'always', 'initialized': 'never' }],
     /* Minuta */
-    'comma-style': [2, 'last'],
-    'quotes': [1, 'single']
+    'comma-style': [0, 'last'],
+    'quotes': [0, 'single']
   }
 };
